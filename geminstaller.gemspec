@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{geminstaller}
-  s.version = "0.5.2"
+  s.version = "0.5.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Chad Woolley", "Britt Crawford", "Mike Pearce"]
@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.has_rdoc = true
   s.homepage = %q{http://geminstaller.rubyforge.org/}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
+  s.files = [".loadpath", "COPYING", "History.txt", "LICENSE", "Manifest.txt", "README.txt", "Rakefile", "TODO.txt", "bin/geminstaller", "cruise_config.rb", "focused_spec.sh", "focused_spec_debug.sh", "geminstaller.yml", "lib/geminstaller.rb", "lib/geminstaller/application.rb", "lib/geminstaller/arg_parser.rb", "lib/geminstaller/autogem.rb", "lib/geminstaller/backward_compatibility.rb", "lib/geminstaller/config.rb", "lib/geminstaller/config_builder.rb", "lib/geminstaller/enhanced_stream_ui.rb", "lib/geminstaller/exact_match_list_command.rb", "lib/geminstaller/file_reader.rb", "lib/geminstaller/gem_arg_processor.rb", "lib/geminstaller/gem_command_manager.rb", "lib/geminstaller/gem_interaction_handler.rb", "lib/geminstaller/gem_list_checker.rb", "lib/geminstaller/gem_runner_proxy.rb", "lib/geminstaller/gem_source_index_proxy.rb", "lib/geminstaller/gem_spec_manager.rb", "lib/geminstaller/geminstaller_access_error.rb", "lib/geminstaller/geminstaller_error.rb", "lib/geminstaller/hoe_extensions.rb", "lib/geminstaller/install_processor.rb", "lib/geminstaller/missing_dependency_finder.rb", "lib/geminstaller/missing_file_error.rb", "lib/geminstaller/noninteractive_chooser.rb", "lib/geminstaller/output_filter.rb", "lib/geminstaller/output_listener.rb", "lib/geminstaller/output_observer.rb", "lib/geminstaller/output_proxy.rb", "lib/geminstaller/registry.rb", "lib/geminstaller/requires.rb", "lib/geminstaller/rogue_gem_finder.rb", "lib/geminstaller/ruby_gem.rb", "lib/geminstaller/rubygems_exit.rb", "lib/geminstaller/rubygems_extensions.rb", "lib/geminstaller/rubygems_version_checker.rb", "lib/geminstaller/rubygems_version_warnings.rb", "lib/geminstaller/source_index_search_adapter.rb", "lib/geminstaller/unauthorized_dependency_prompt_error.rb", "lib/geminstaller/unexpected_prompt_error.rb", "lib/geminstaller/valid_platform_selector.rb", "lib/geminstaller/version_specifier.rb", "lib/geminstaller/yaml_loader.rb", "lib/geminstaller_rails_preinitializer.rb", "start_local_gem_server.sh", "test/test_all.rb", "test/test_all_smoketests.rb", "website/config.yaml", "website/src/analytics.page", "website/src/code/ci.virtual", "website/src/code/coverage/index.virtual", "website/src/code/index.page", "website/src/code/rdoc/index.virtual", "website/src/community/index.page", "website/src/community/links.page", "website/src/community/rubyforge.virtual", "website/src/default.css", "website/src/default.template", "website/src/documentation/documentation.page", "website/src/documentation/index.page", "website/src/documentation/tutorials.page", "website/src/download.page", "website/src/faq.page", "website/src/index.page", "website/src/metainfo", "website/src/webgen.css"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{geminstaller}
   s.rubygems_version = %q{1.3.3}
